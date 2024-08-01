@@ -1,0 +1,97 @@
+.footer {
+  width: 100%;
+  height: 656.95px;
+  padding-top: 30px;
+  box-shadow: 0 -6px 15px #f6f1bb;
+  z-index: 2;
+  position: relative;
+  object-fit: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://nctu.edu.vn/videos/footerBG3.jpg);
+  background-color: #ffd24b;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+  z-index: -2;
+}
+.image-footer {
+  width: 1406px;
+  height: 115.95px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(181, 178, 178);
+}
+.image-footer img {
+  width: 350px;
+  height: 85.95px;
+  padding-bottom: 30px;
+}
+.body-footer {
+  width: 1332px;
+  height: 312.2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+}
+.inner-box-footer {
+  width: 439.99px;
+  height: 433.321px;
+}
+.inner-box-footer span {
+  font-size: 26px;
+  font-weight: bold;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #ffffff;
+}
+.inner-box-footer p {
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "DVN-Poppins", sans-serif;
+}
+.inner-box-footer p:hover{
+  text-decoration: underline;
+}
+.footer-bottom {
+  width: 1532px;
+  height: 121px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.footer-bottom div {
+  width: 1532px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 16px;
+}
+.for
+.footer-bottom div2 {
+  width: 1532px;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-family: "K2D";
+  font-size: 16px;
+  padding: 16px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.footer-bottom div img {
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+}
+.footer-bottom div img:hover{
+  transform: scale(0.9);
+}

@@ -1,0 +1,48 @@
+.bottom-menu-2 {
+    position: relative; /* Đảm bảo không bị đè lên */
+    width: 100%;
+    height: 56px;
+    display: flex; /* Sử dụng flexbox để căn giữa các ô nhỏ */
+    justify-content: center;
+    align-items: center;
+
+  }
+  .menu-bottom-2 {
+    position: relative; /* Đảm bảo không bị đè lên */
+    width: 1406px;
+    height: 56px;
+    display: flex; /* Sử dụng flexbox để căn giữa các ô nhỏ */
+    justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+
+  }
+  .item-bottom{
+    position: relative; /* Đảm bảo không bị đè lên */
+    width: 118.6px;
+    height: 40px;
+    display: flex; /* Sử dụng flexbox để căn giữa các ô nhỏ */
+    justify-content: center; /* Căn giữa nội dung theo chiều ngang */
+    align-items: center; /* Căn giữa nội dung theo chiều dọc */
+    font-size: 16px;
+    font-family: K2D;
+    padding: 8px;
+  }
+  .dauxet {
+    color: #888888;
+    font-size: 20px;
+    font-family: K2D;
+    font-weight: bold;
+  }
+  .Image {
+  width: 1532px;
+  height: 600px;
+  position: relative; /* Đảm bảo không bị đè lên */
+  box-sizing: border-box; /* Bao gồm padding và border trong kích thước của ô */
+}
+.Image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Điều chỉnh hình ảnh để lấp đầy khung mà không bị biến dạng */
+  display: block; /* Loại bỏ khoảng trắng bên dưới hình ảnh */
+  box-sizing: border-box;
+}
